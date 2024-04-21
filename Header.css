@@ -1,3 +1,10 @@
+/*-Set to solid or none to toggle dev borders-*/
+
+:root{
+  --devb:none 1px #000000;
+}
+
+
 /*-Container for Header Bar-*/
 .navcont{
   position:fixed;
@@ -9,27 +16,32 @@
   width:100vw;
   left:0;
   background-color: #939393;
+  border:var(--devb);
 }
 
 /*-Header Title -*/
 .navtitle{
   display:flex;
-  font-size:20px;
+  font-size:21px;
   position:fixed;
   height:50px;
-  width:75vw;
   right:0;
   top:0;
   background-color: #939393;
+  border:var(--devb);
+  width:70%;
+  max-height:50px;
+  justify-content:center;
 }
 
 /*-Style The Header Title-*/
 .navtitle a{
   position:relative;
+  display:flex;
   color:#ffffff;
   text-decoration:none;
-  padding-block:16px;
-  margin:auto;
+  border:var(--devb);
+  padding-block:13.25px;
   text-align:center;
 }
 
@@ -38,7 +50,6 @@
   display:flex;
   position:relative;
   width:30vw;
-  max-width:100px;
   height:50px;
   background-color:#4c4c4c;
   color:#ffffff;
@@ -46,16 +57,18 @@
   cursor: pointer;
   z-index: 1;
   border:none;
-  padding-inline:25%;
-  padding-block:12.5%;
+  padding-block:13.25px;
+  border:var(--devb);
+  justify-content: center;
 }
   
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-  position: fixed;
+  position:fixed;
   display:flex;
   top:0;
   left:0;
+  border:var(--devb);
   }
   
 /* Dropdown Content (Hidden by Default) */
@@ -67,7 +80,8 @@
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 999;
-  top:52px;
+  top:50px;
+  border:var(--devb);
 }
   
 /* Links inside the dropdown */
@@ -76,19 +90,60 @@
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  border:var(--devb);
 }
   
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #d8d8d8
+  border:var(--devb);
 }
   
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+  border:var(--devb);
 }
   
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background-color: #5e5e5e;
+  border:var(--devb);
+}
+
+
+
+
+
+
+/*-Adjustment for desktop-*/
+
+@media screen and (min-width:530px){
+  .navcont{
+    height:75px;
+  }
+
+ .dropdown{
+  height:75px;
+ }
+ 
+ .dropbtn{
+  height:75px;
+  width:30vw;
+ }
+
+ .navtitle{
+  height:75px;
+ }
+
+
+
+
+
+
+
+
+
+
+
 }
