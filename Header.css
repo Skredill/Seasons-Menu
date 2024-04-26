@@ -17,6 +17,7 @@
   left:0;
   background-color: #939393;
   border:var(--devb);
+  font-family:'Times New Roman', Times, serif;
 }
 
 /*-Header Title -*/
@@ -53,7 +54,7 @@
   height:50px;
   background-color:#4c4c4c;
   color:#ffffff;
-  font-size: 20px;
+  font-size: 15px;
   cursor: pointer;
   z-index: 1;
   border:none;
@@ -95,7 +96,7 @@
   
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #d8d8d8
+  background-color: #d8d8d8;
   border:var(--devb);
 }
   
