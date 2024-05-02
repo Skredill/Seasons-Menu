@@ -1,7 +1,6 @@
 :root{
     font-family:'Times New Roman', Times, serif;
   }
-
 /*-Main Body container-*/
 .main-container {
     margin-top:80px;
@@ -9,9 +8,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
-    gap:30px;
+    gap:20px;
     z-index:-1;
 }
+
         /*-Individual Item Boxes-*/
 .flex-item{
     background-color:#eeeeee;
@@ -23,6 +23,7 @@
     z-index: -1;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
+
         /*-Styles Item Name-*/
 .flex-name{
     display:flex;
@@ -32,6 +33,7 @@
     height:60px;
     font-size:18px;
 }
+
         /*-Formats image-*/
 .flex-img{
     width:150px;
@@ -42,21 +44,18 @@
 .subcon1{
     display:flex;
     flex-direction:row;
-    justify-content: space-between;
+    justify-content:space-between;
     margin-top:-5px;
     Height:154px;
-    font-size:12px;
-    
+    font-size:12px;    
 }
-
 
 .SubConR{
     width:35%;
     display:flex;
     flex-direction:column;
     text-align:center;
-    justify-content: center;
-    
+    justify-content: center;   
 }
 
 .SubConM{
@@ -73,11 +72,10 @@
     line-height:1.5;
     padding-left:5px;
     padding-right:5px;
-    
 }
 
-
 .banner{
+    background-color:#eeeeee;
     font-size:40px;
     text-align:center;
     border:solid 1px;
@@ -104,6 +102,7 @@
     justify-content: center;
     text-align:center;
     padding-block:10px;
+    padding-inline:10px;
     font-size:17px;
     height:80px;
 }
@@ -113,11 +112,11 @@
     text-align:center;
     font-size:25px;
 }
+
 .sauce-line{
     display:flex;
     border-bottom:dashed 2px;
 }
-
 
 
 
@@ -132,8 +131,8 @@
 }
 
 .flex-item{
-width:400px;
-height:600px;
+    width:400px;
+    height:600px;
 }
 
 .flex-name{
@@ -142,8 +141,8 @@ height:600px;
 }
 
 .flex-img{
-width:400px;
-height:225px;
+    width:400px;
+    height:225px;
 }
 
 .subcon1{
@@ -151,13 +150,11 @@ height:225px;
 }
 
 .SubConR{
-
-
     font-size:27px;
 }
 
 .SubConM{
-height:100%;
+    height:100%;
 }
 
 .SubConL{
@@ -166,25 +163,15 @@ height:100%;
 }
 
 .sauce-title{
-
     padding-block:10px;
     font-size:35px;
-
 }
 
 .sauce-list{
-
     font-size:27px;
-
 }
 
 .sauce-box{
-
     width:90vw;
-
 }
-
-
-
-
 }
