@@ -3,7 +3,7 @@
   }
 
 /*-Main Body container-*/
-.flex-container {
+.main-container {
     margin-top:80px;
     margin-inline:10px;
     display: flex;
@@ -123,16 +123,68 @@
 
 
 
-@media screen and (min-width:550px){
-.flex-container{
-    margin-top:105px;
+@media screen and (min-width:980px){
+    
+.main-container{
+    margin-top:135px;
+    margin-inline:50px;
+    gap:60px;
+}
+
+.flex-item{
+width:400px;
+height:600px;
+}
+
+.flex-name{
+    font-size:35px;
+    height:120px;
+}
+
+.flex-img{
+width:400px;
+height:225px;
+}
+
+.subcon1{
+    height:253px;
+}
+
+.SubConR{
+
+
+    font-size:27px;
+}
+
+.SubConM{
+height:100%;
+}
+
+.SubConL{
+    padding-inline:30px;
+    font-size:27px;
+}
+
+.sauce-title{
+
+    padding-block:10px;
+    font-size:35px;
+
+}
+
+.sauce-list{
+
+    font-size:27px;
+
+}
+
+.sauce-box{
+
+    width:90vw;
+
 }
 
 
-.banner{
-
-
-}
 
 
 }

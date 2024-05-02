@@ -100,25 +100,37 @@
 
 
 /*-Adjustment for desktop-*/
-
-@media screen and (min-width:550px){
+@media screen and (min-width:980px){
   .navcont{
-    height:75px;
+    height:80px;
   }
 
  .dropdown{
-  height:75px;
+  height:80px;
  }
  
  .dropbtn{
-  height:75px;
+  height:80px;
   width:30vw;
+  font-size:40px;
  }
 
  .navtitle{
-  height:75px;
+  height:80px;
+  font-size:40px;
  }
 
+
+ .dropdown{
+
+  
+ }
+
+
+ .dropdown-content{
+  font-size:25px;
+  top:80px;
+ }
 
 
 

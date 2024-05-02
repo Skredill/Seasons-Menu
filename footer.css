@@ -1,0 +1,42 @@
+.footer-main{
+    border-top:solid 1px;
+    position:relative;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    bottom:-8px;
+    left:-8px;
+    height:50px;
+    width:100vw;
+    margin-top:20px;
+}
+
+
+
+.disclaimer{
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    justify-content: center ;
+    border:solid 1px;
+    font-size:12px;
+    width:100px;
+}
+
+.logo{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align: center;
+    border:solid 1px;
+}
+
+.social{
+
+}
+
+.facebook{
+    border:none;
+    height:20px;
+    width:20px;
+}
