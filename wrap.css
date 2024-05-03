@@ -1,9 +1,32 @@
+        /*-Global Variables-*/
 :root{
-    font-family:'Times New Roman', Times, serif;
-  }
+    font-family:"Rubik Mono One", monospace !important;
+    --dark-green:#02773d;
+    --light-green:#00db1d;
+    --light-gray:#868686;
+    --light-gray2:#747474;
+    --dark-gray:#535353;
+    --white:#d3d3d3;
+    --black:#000000;
+    --red:#ff0000;
+    --yellow:#feff33;
+    --light-blue:#008dd3;
+    --dark-blue:#001fce;
+    --gray:#464646;
+}
+
+  html {
+    background-image:radial-gradient(#9c9c9c,#666666);
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
 /*-Main Body container-*/
 .main-container {
-    margin-top:80px;
+    margin-top:90px;
     margin-inline:10px;
     display: flex;
     flex-wrap: wrap;
@@ -14,55 +37,65 @@
 
         /*-Individual Item Boxes-*/
 .flex-item{
-    background-color:#eeeeee;
+    background-image:radial-gradient(var(--light-gray),#4e4ea5) !important;
     font-size:20px;
-    border:solid 1px;
+    border:solid 1px black;
     border-radius:20px;
     Height:300px;
     width:150px;
     z-index: -1;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    color:white;
 }
 
         /*-Styles Item Name-*/
 .flex-name{
+    font-family:"Rubik Mono One", monospace !important;
+    border-top-left-radius:20px;
+    border-top-right-radius: 20px;
     display:flex;
     flex-direction:column;
     justify-content: center;
     text-align:center;
     height:60px;
-    font-size:18px;
+    font-size:12px;
+    padding-inline:5px;
+ 
 }
 
         /*-Formats image-*/
 .flex-img{
     width:150px;
     height:84.38px;
-    border-block:solid 1px;
+    border-block:solid 1px black;
 }
 
+        /*--Item Description container*/
 .subcon1{
+    font-family:"Rubik Mono One", monospace !important;
     display:flex;
     flex-direction:row;
     justify-content:space-between;
     margin-top:-5px;
     Height:154px;
-    font-size:12px;    
+    font-size:9px;    
 }
 
+        /*-Item Price Box-*/
 .SubConR{
     width:35%;
     display:flex;
     flex-direction:column;
     text-align:center;
     justify-content: center;   
+    font-size:8 px;
 }
-
+        /*-Description Box Divider-*/
 .SubConM{
-    border-right:solid 1px;
+    border-right:solid 1px black;
     height:155px;
 }
-
+        /*-Description Box-*/
 .SubConL{
     display:flex;
     flex-direction:column;
@@ -73,29 +106,34 @@
     padding-left:5px;
     padding-right:5px;
 }
-
+        /*-Page Title-*/
 .banner{
-    background-color:#eeeeee;
-    font-size:40px;
+    font-family:"Rubik Mono One", monospace !important;
+    background-image:radial-gradient(var(--light-gray),#4e4ea5) !important;
+    font-size:25px;
+    padding-block:10px;
     text-align:center;
-    border:solid 1px;
+    border:solid 1px black;
     border-radius:20px;
-    Height:50px;
+    Height:auto;
     width:90vw;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    color:rgb(255, 255, 255);
 }
-
+        /*-Sauces box container-*/
 .sauce-box{
-    background-color: #eeeeee;
+    font-family:"Rubik Mono One", monospace !important;
+    color:white;
+    background-image:radial-gradient(var(--light-gray),#4e4ea5) !important;
     display:flex;
     flex-direction: column;
-    border:solid 1px;
+    border:solid 1px black;
     border-radius:20px;
     Height:auto;
     width:80vw;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
-
+        /*-sauces box list-*/
 .sauce-list{
     display:flex;
     flex-direction:column;
@@ -103,19 +141,20 @@
     text-align:center;
     padding-block:10px;
     padding-inline:10px;
-    font-size:17px;
+    font-size:11px;
     height:80px;
 }
-
+        /*-Sauces box title-*/
 .sauce-title{
+    font-family:"Rubik Mono One", monospace !important;
     padding-block:5px;
     text-align:center;
-    font-size:25px;
+    font-size:20px;
 }
-
+        /*-Sauces box divider-*/
 .sauce-line{
     display:flex;
-    border-bottom:dashed 2px;
+    border-bottom:dashed 2px black;
 }
 
 
@@ -136,7 +175,7 @@
 }
 
 .flex-name{
-    font-size:35px;
+    font-size:26px;
     height:120px;
 }
 
@@ -150,7 +189,7 @@
 }
 
 .SubConR{
-    font-size:27px;
+    font-size:20px;
 }
 
 .SubConM{
@@ -159,7 +198,7 @@
 
 .SubConL{
     padding-inline:30px;
-    font-size:27px;
+    font-size:17px;
 }
 
 .sauce-title{
@@ -174,4 +213,9 @@
 .sauce-box{
     width:90vw;
 }
+
+.banner{
+    font-size:40px;
+}
+
 }
