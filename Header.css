@@ -92,6 +92,7 @@
   
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
+  font-size:13px;
   text-align: center;
   display: none;
   position: absolute;
@@ -160,7 +161,7 @@
  }
 
  .dropdown-content{
-  font-size:25px;
+  font-size:20px;
   top:107px;
   max-width:200px;
  }
