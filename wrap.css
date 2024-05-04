@@ -92,6 +92,7 @@
 }
         /*-Description Box Divider-*/
 .SubConM{
+    top:-2px;
     position:relative;
     border-right:solid 1px black;
     height:155px;
@@ -189,6 +190,26 @@
 .byodesk{
     display:none;
 }
+
+
+#pasta{
+    font-size:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
