@@ -11,6 +11,46 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <style>
+        .flex-item{
+            height:250px;
+        }
+        .subcon1{
+            margin-top:-7px;
+            height:103px;
+        }
+        .SubConM{
+            top:0;
+            height:105px;
+        }
+
+        #specbanner{
+            font-size:14px;
+             width:80vw;
+        }
+
+        @media screen and (min-width:980px){
+            .flex-item{height:412px;
+            }
+            .subcon1{
+            margin-top:-7px;
+            height:103px;
+        }
+        .SubConM{
+            top:0;
+            height:105px;
+        }
+        .flex-name{height:80px;}    
+
+        #specbanner{
+            font-size:30px;
+             width:80vw;
+        }
+            }
+
+
+        
+    </style>
     <!--Header Bar-->
     <div class="navtitle-desktop"><a href="home.html">Seasons Tickets Sports Pub</a></div>
     
@@ -26,9 +66,10 @@
                 <a href="sandwiches.html">Sandwiches</a>
                 <a href="specials.html">Lunch Specials</a>
                 <a href="subs.html">Subs</a>
+                <a href="wraps.html">Wraps</a>
+                <a href="salad.html">Salad & Soup</a>
                 <a href="sides.html">Sides</a>
                 <a href="kids.html">Kids</a>
-                <a href="Drinks.html">Drinks</a>
                 <a href="Desserts.html" id="Desserts">Desserts</a>
             </div>
         </div>
@@ -41,39 +82,125 @@
     <div class="main-container">
         <!--Menu Main Container-->
 
-        <div class="banner">Appetizers</div>
+        <div class="banner">Lunch Specials</div>
+        <div class="banner" id="specbanner">Dine in only, 11am to 4pm Monday-Saturday</div>
 
-        <div class="flex-item">     <!--Mozzarella Sticks-->
+
+        <div class="flex-item">     <!--Cheese Pizza-->
+            
+            <div class="flex-name">Small Cheese Pizza</div>
+
+            <img class="flex-img" src="mozzarella sticks.jpg">
+
+            <div class="subcon1">
+                <div class="SubConL">
+                    <div>Add Toppings $1 Each</div>
+                </div>
+                <div class="SubConM"></div>
+                <div class="SubConR">$5.99
+                </div>
+            </div>
+        </div>
+
+        <div class="flex-item">     <!--Meatball Sub-->
+
+            <div class="flex-name">Meatball Sub</div>
+            <!--Item Name Banner-->
+
+            <img class="flex-img" src="mozzarella sticks.jpg">
+            <!--Item Picture-->
+
+            <div class="subcon1">
+                <!--Main Container for item description and price-->
+
+                <div class="SubConL">
+                    with sauce and provelone cheese
+                    <!--Item Description-->
+                </div>
+                <div class="SubConM"></div>
+                <div class="SubConR">
+
+                    <div>$6.99</div>
+                    <!--Item Price-->
+                </div>
+            </div>
+        </div>
+
+        <div class="flex-item">     <!--ham and cheese-->
+
+            <div class="flex-name">Ham & cheese sub</div>
+            <!--Item Name Banner-->
+
+            <img class="flex-img" src="mozzarella sticks.jpg">
+            <!--Item Picture-->
+
+            <div class="subcon1">
+                <!--Main Container for item description and price-->
+
+                <div class="SubConL">
+                    Served with Lays Chips
+                    <!--Item Description-->
+                </div>
+                <div class="SubConM"></div>
+                <div class="SubConR">
+                    
+                    $6.99
+                    <!--Item Price-->
+                </div>
+            </div>
+
+        </div>
+
+        <div class="flex-item">     <!--Csteak sub-->
+            
+            <div class="flex-name">Steak & Cheese Sub</div>
+            <!--Item Name Banner-->
+
+            <img class="flex-img" src="mozzarella sticks.jpg">
+            <!--Item Picture-->
+
+            <div class="subcon1">
+                <!--Main Container for item description and price-->
+
+                <div class="SubConL">
+                    Served With Lays Chips
+                    <!--Item Description-->
+                </div>
+                <div class="SubConM"></div>
+                <div class="SubConR">
+                    $7.99
+                </div>
+            </div>
+
+        </div>
+
+        <div class="flex-item">     <!--chicken & cheese-->
+            
+            <div class="flex-name">Grilled Chicken & Cheese Sub</div>
+            <!--Item Name Banner-->
+
+            <img class="flex-img" src="mozzarella sticks.jpg">
+            <!--Item Picture-->
+
+            <div class="subcon1">
+                <!--Main Container for item description and price-->
+
+                <div class="SubConL">
+                    Served With Lays Chips
+                    <!--Item Description-->
+                </div>
+                <div class="SubConM"></div>
+                <div class="SubConR">
+                    $7.99
+                </div>
+            </div>
+
+        </div>
+
+        <div class="flex-item">     <!--Chicken bacon ranch-->
             
 
-            <div class="flex-name">Mozzarella Sticks</div>
-            <!--Item Name Banner-->
-
-            <img class="flex-img" src="images/Appetizers/mozzarella sticks.jpg">
-            <!--Item Picture-->
-
-            <div class="subcon1">
-                <!--Main Container for item description and price-->
-
-                <div class="SubConL">
-                    Served With a Side of Marinara Sauce
-                    <!--Item Description-->
-                </div>
-                <div class="SubConM"></div>
-                <div class="SubConR">
-                    <div>6</div>
-                    <div>Sticks</div>
-                    <!--Item Quantity-->
-                    <div>$7.99</div>
-                    <!--Item Price-->
-                </div>
-            </div>
-
-        </div>
-
-        <div class="flex-item">     <!--Mac and Cheese Bites-->
-            
-            <div class="flex-name">Mac and Cheese Bites</div>
+            <div class="flex-name">Chicken Bacon Ranch On a bun</div>
             <!--Item Name Banner-->
 
             <img class="flex-img" src="mozzarella sticks.jpg">
@@ -83,174 +210,13 @@
                 <!--Main Container for item description and price-->
 
                 <div class="SubConL">
-                    Served With a Side of Marinara Sauce
+                    With Lettuce & Tomato
                     <!--Item Description-->
                 </div>
                 <div class="SubConM"></div>
                 <div class="SubConR">
-                    <div>10</div>
-                    <div>Pieces</div>
-                    <!--Item Quantity-->
-                    <div>$8.99</div>
-                    <!--Item Price-->
-                </div>
-            </div>
-        </div>
+                    $7.99
 
-        <div class="flex-item">     <!--Chicken Wings-->
-            
-            <div class="flex-name">Chicken Wings</div>
-
-            <img class="flex-img" src="mozzarella sticks.jpg">
-
-            <div class="subcon1">
-                <div class="SubConL">
-                    <div>Served Plain or With Sauce of Your Choice (Sauce Options at Bottom)</div>
-                </div>
-                <div class="SubConM"></div>
-                <div class="SubConR">
-                    <DIV>10</DIV>
-                    <div>Wings</div>
-                    <div>$10.99</div>
-                    <div>⠀</div>
-                    <div>⠀</div>
-                    <div>20</div>
-                    <div>Wings</div>
-                    <div>$19.99</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="flex-item">     <!--Chicken Tenders-->
-
-            <div class="flex-name">Chicken Tenders</div>
-            <!--Item Name Banner-->
-
-            <img class="flex-img" src="mozzarella sticks.jpg">
-            <!--Item Picture-->
-
-            <div class="subcon1">
-                <!--Main Container for item description and price-->
-
-                <div class="SubConL">
-                    Served Plain or With Sauce of Your Choice (Sauce Options at Bottom)
-                    <!--Item Description-->
-                </div>
-                <div class="SubConM"></div>
-                <div class="SubConR">
-                    <div>8</div>
-                    <div>Tenders</div>
-                    <!--Item Quantity-->
-                    <div>$9.99</div>
-                    <!--Item Price-->
-                </div>
-            </div>
-        </div>
-
-        <div class="flex-item">     <!--Homestyle Tenders-->
-
-            <div class="flex-name">Homestyle Tenders</div>
-            <!--Item Name Banner-->
-
-            <img class="flex-img" src="mozzarella sticks.jpg">
-            <!--Item Picture-->
-
-            <div class="subcon1">
-                <!--Main Container for item description and price-->
-
-                <div class="SubConL">
-                    Served Plain or With Sauce of Your Choice (Sauce Options at Bottom)
-                    <!--Item Description-->
-                </div>
-                <div class="SubConM"></div>
-                <div class="SubConR">
-                    <div>8</div>
-                    <div>Tenders</div>
-                    <!--Item Quantity-->
-                    <div>$9.99</div>
-                    <!--Item Price-->
-                </div>
-            </div>
-
-        </div>
-
-        <div class="flex-item">     <!--Cheese Fries-->
-            
-            <div class="flex-name">Cheese Fries</div>
-            <!--Item Name Banner-->
-
-            <img class="flex-img" src="mozzarella sticks.jpg">
-            <!--Item Picture-->
-
-            <div class="subcon1">
-                <!--Main Container for item description and price-->
-
-                <div class="SubConL">
-                    Fries With Melted Cheese, Served With Sour Cream on the Side
-                    <!--Item Description-->
-                </div>
-                <div class="SubConM"></div>
-                <div class="SubConR">
-                    <div>1</div>
-                    <div>Order</div>
-                    <!--Item Quantity-->
-                    <div>$7.99</div>
-                    <!--Item Price-->
-                </div>
-            </div>
-
-        </div>
-
-        <div class="flex-item">     <!--Chili Cheese Fries-->
-            
-            <div class="flex-name">Chili Cheese Fries</div>
-            <!--Item Name Banner-->
-
-            <img class="flex-img" src="mozzarella sticks.jpg">
-            <!--Item Picture-->
-
-            <div class="subcon1">
-                <!--Main Container for item description and price-->
-
-                <div class="SubConL">
-                    Fries With Chili and Melted Cheese, Served With Sour Cream on the Side
-                    <!--Item Description-->
-                </div>
-                <div class="SubConM"></div>
-                <div class="SubConR">
-                    <div>1</div>
-                    <div>Order</div>
-                    <!--Item Quantity-->
-                    <div>$10.49</div>
-                    <!--Item Price-->
-                </div>
-            </div>
-
-        </div>
-
-        <div class="flex-item">     <!--Cheese and Bacon Fries-->
-            
-
-            <div class="flex-name">Cheese and Bacon Fries</div>
-            <!--Item Name Banner-->
-
-            <img class="flex-img" src="mozzarella sticks.jpg">
-            <!--Item Picture-->
-
-            <div class="subcon1">
-                <!--Main Container for item description and price-->
-
-                <div class="SubConL">
-                    Fries With Bacon and Melted Cheese, Served With Sour Cream on the Side
-                    <!--Item Description-->
-                </div>
-                <div class="SubConM"></div>
-                <div class="SubConR">
-                    <div>1</div>
-                    <div>Order</div>
-                    <!--Item Quantity-->
-                    <div>$10.49</div>
-                    <!--Item Price-->
                 </div>
             </div>
 
@@ -258,7 +224,7 @@
 
         <div class="flex-item">     <!--Steak and Cheese Fries-->
             
-            <div class="flex-name">Steak and Cheese Fries</div>
+            <div class="flex-name">Fried Chicken On A Bun</div>
             <!--Item Name Banner-->
 
             <img class="flex-img" src="mozzarella sticks.jpg">
@@ -268,15 +234,13 @@
                 <!--Main Container for item description and price-->
 
                 <div class="SubConL">
-                    Fries With Grilled Peppers, Onions, and Melted Cheese, Served With Sour Cream on the Side
+                    With lettuce, tomato, mayo, cheese
                     <!--Item Description-->
                 </div>
                 <div class="SubConM"></div>
                 <div class="SubConR">
-                    <div>1</div>
-                    <div>Order</div>
-                    <!--Item Quantity-->
-                    <div>$11.99</div>
+
+                    <div>$7.99</div>
                     <!--Item Price-->
                 </div>
             </div>
@@ -285,7 +249,7 @@
 
         <div class="flex-item">     <!--Fried Pickles-->
 
-            <div class="flex-name">Fried Pickles</div>
+            <div class="flex-name">Buffalo Fried Chicken On A Bun</div>
             <!--Item Name Banner-->
 
             <img class="flex-img" src="mozzarella sticks.jpg">
@@ -295,16 +259,12 @@
                 <!--Main Container for item description and price-->
 
                 <div class="SubConL">
-                    Served With a Side of Ranch dressing
+                    With Blue Cheese, Lettuce & Tomato
                     <!--Item Description-->
                 </div>
                 <div class="SubConM"></div>
                 <div class="SubConR">
-                    <div>20</div>
-                    <div>pieces</div>
-                    <!--Item Quantity-->
-                    <div>$9.99</div>
-                    <!--Item Price-->
+                    <div>$7.99</div>
                 </div>
             </div>
 
@@ -312,7 +272,7 @@
 
         <div class="flex-item">     <!--Loaded Tater Tots-->
 
-            <div class="flex-name">Loaded Tater Tots</div>
+            <div class="flex-name">Cheeseburger</div>
             <!--Item Name Banner-->
 
             <img class="flex-img" src="mozzarella sticks.jpg">
@@ -322,15 +282,12 @@
                 <!--Main Container for item description and price-->
 
                 <div class="SubConL">
-                    Comes With Cheese, Bacon, Tomatoes, and Red Onions, Served With Sour Cream on the Side
+                    5oz patty, served with fries
                     <!--Item Description-->
                 </div>
                 <div class="SubConM"></div>
                 <div class="SubConR">
-                    <div>1</div>
-                    <div>Order</div>
-                    <!--Item Quantity-->
-                    <div>$10.99</div>
+                    <div>$7.99</div>
                     <!--Item Price-->
                 </div>
             </div>
@@ -339,7 +296,7 @@
 
         <div class="flex-item">     <!--Breadsticks With Cheese-->
 
-            <div class="flex-name">Breadsticks With Cheese</div>
+            <div class="flex-name">Bacon Cheeseburger</div>
             <!--Item Name Banner-->
 
             <img class="flex-img" src="mozzarella sticks.jpg">
@@ -349,16 +306,12 @@
                 <!--Main Container for item description and price-->
 
                 <div class="SubConL">
-                    Served With a side of Marinara Sauce
+                    5oz patty, Served With Fries
                     <!--Item Description-->
                 </div>
                 <div class="SubConM"></div>
                 <div class="SubConR">
-                    <div>1</div>
-                    <div>Order</div>
-                    <!--Item Quantity-->
-                    <div>$7.75</div>
-                    <!--Item Price-->
+                    $8.99
                 </div>
             </div>
 
@@ -366,7 +319,7 @@
 
         <div class="flex-item">     <!--Jalepeno Poppers-->
 
-            <div class="flex-name">Jalepeno Poppers</div>
+            <div class="flex-name">Bacon Egg Cheeseburger</div>
             <!--Item Name Banner-->
 
             <img class="flex-img" src="mozzarella sticks.jpg">
@@ -376,16 +329,12 @@
                 <!--Main Container for item description and price-->
 
                 <div class="SubConL">
-                    Served With a Side of Ranch Dressing
+                    5oz patty, served with fries
                     <!--Item Description-->
                 </div>
                 <div class="SubConM"></div>
                 <div class="SubConR">
-                    <div>8</div>
-                    <div>Pieces</div>
-                    <!--Item Quantity-->
-                    <div>$7.99</div>
-                    <!--Item Price-->
+                    $9.99
                 </div>
             </div>
 
@@ -393,7 +342,7 @@
 
         <div class="flex-item">     <!--Nachos With Cheese-->
 
-            <div class="flex-name">Nachos With Cheese</div>
+            <div class="flex-name">Chicken Fingers & French Fries</div>
             <!--Item Name Banner-->
 
             <img class="flex-img" src="mozzarella sticks.jpg">
@@ -403,16 +352,12 @@
                 <!--Main Container for item description and price-->
 
                 <div class="SubConL">
-                    Served With Sour Cream and Salsa on the Side
+                    4 Tenders, with your choice of sauce
                     <!--Item Description-->
                 </div>
                 <div class="SubConM"></div>
                 <div class="SubConR">
-                    <div>1</div>
-                    <div>Order</div>
-                    <!--Item Quantity-->
-                    <div>$9.49</div>
-                    <!--Item Price-->
+                    $7.99
                 </div>
             </div>
 
@@ -420,17 +365,16 @@
 
         <div class="flex-item">     <!--Cheese Quesodilla-->
 
-            <div class="flex-name">Cheese Quesodilla</div>
+            <div class="flex-name">2 Hot Dogs & Fries</div>
             <img class="flex-img" src="mozzarella sticks.jpg">
             <div class="subcon1">
                 <div class="SubConL">
-                    Served With Sour Cream and Salsa on the Side
+                    Served With your chocie of condiments
                 </div>
                 <div class="SubConM"></div>
                 <div class="SubConR">
-                    <div>1</div>
-                    <div>Order</div>
-                    <div>$10.49</div>
+
+                    <div>$7.99</div>
                 </div>
             </div>
 
@@ -438,24 +382,22 @@
 
         <div class="flex-item">     <!--Chicken Quesodilla-->
 
-            <div class="flex-name">Chicken Quesodilla</div>
+            <div class="flex-name">Roast Beef Club</div>
             <img class="flex-img" src="mozzarella sticks.jpg">
             <div class="subcon1">
                 <div class="SubConL">
-                    Served With Sour Cream and Salsa on the side
+                   Sliced roast beef in a club, Served With Fries
                 </div>
                 <div class="SubConM"></div>
                 <div class="SubConR">
-                    <div>1</div>
-                    <div>Order</div>
-                    <div>$11.99</div>
+                    <div>$8.99</div>
                 </div>
             </div>
         </div>
 
         <div class="flex-item">     <!--Steak Quesodilla-->
 
-            <div class="flex-name">Steak Quesodilla</div>
+            <div class="flex-name">Turkey Club</div>
             <!--Item Name Banner-->
 
             <img class="flex-img" src="mozzarella sticks.jpg">
@@ -465,15 +407,13 @@
                 <!--Main Container for item description and price-->
 
                 <div class="SubConL">
-                    Served With Sour Cream and Salsa on the side
+                    Sliced Turkey in a club, Served With Fries
                     <!--Item Description-->
                 </div>
                 <div class="SubConM"></div>
                 <div class="SubConR">
-                    <div>1</div>
-                    <div>Order</div>
-                    <!--Item Quantity-->
-                    <div>$11.99</div>
+
+                    <div>$8.99</div>
                     <!--Item Price-->
                 </div>
             </div>
@@ -483,7 +423,7 @@
         <div class="flex-item">     <!--Chicken Bacon Ranch Quesodilla-->
             <!--Chicken Tenders-->
 
-            <div class="flex-name">Chicken Bacon Ranch Quesodilla</div>
+            <div class="flex-name">Grilled Cheese & Fries</div>
             <!--Item Name Banner-->
 
             <img class="flex-img" src="mozzarella sticks.jpg">
@@ -493,15 +433,12 @@
                 <!--Main Container for item description and price-->
 
                 <div class="SubConL">
-                    Served With Ranch dressing on the side
+                    Classic Grilled Cheese Served With Fries
                     <!--Item Description-->
                 </div>
                 <div class="SubConM"></div>
                 <div class="SubConR">
-                    <div>1</div>
-                    <div>Order</div>
-                    <!--Item Quantity-->
-                    <div>$11.99</div>
+                    <div>$5.99</div>
                     <!--Item Price-->
                 </div>
             </div>
@@ -510,7 +447,7 @@
 
         <div class="flex-item">     <!--Shrimp Cocktail-->
 
-            <div class="flex-name">Shrimp Cocktail</div>
+            <div class="flex-name">Grilled Ham & Cheese with Fries</div>
             <!--Item Name Banner-->
 
             <img class="flex-img" src="mozzarella sticks.jpg">
@@ -520,15 +457,12 @@
                 <!--Main Container for item description and price-->
 
                 <div class="SubConL">
-                    Served With Cocktail Sauce on the side
+                    Grilled Cheese With Ham And fries
                     <!--Item Description-->
                 </div>
                 <div class="SubConM"></div>
                 <div class="SubConR">
-                    <div>8</div>
-                    <div>Pieces</div>
-                    <!--Item Quantity-->
-                    <div>$10.49</div>
+                    <div>$7.99</div>
                     <!--Item Price-->
                 </div>
             </div>
@@ -538,7 +472,7 @@
         <div class="flex-item">     <!--Brocolli Cheddar Bites-->
             <!--Chicken Tenders-->
 
-            <div class="flex-name">Broccoli Cheddar Bites</div>
+            <div class="flex-name">Tuna Salad</div>
             <!--Item Name Banner-->
 
             <img class="flex-img" src="mozzarella sticks.jpg">
@@ -548,15 +482,12 @@
                 <!--Main Container for item description and price-->
 
                 <div class="SubConL">
-                    Served With Ranch dressing on the side
+                    Choice of garden or caesar salad
                     <!--Item Description-->
                 </div>
                 <div class="SubConM"></div>
                 <div class="SubConR">
-                    <div>8</div>
-                    <div>Pieces</div>
-                    <!--Item Quantity-->
-                    <div>$9.49</div>
+                    <div>$6.99</div>
                     <!--Item Price-->
                 </div>
             </div>
@@ -565,7 +496,7 @@
 
         <div class="flex-item">     <!--Potato Skins-->
 
-            <div class="flex-name">Potato Skins</div>
+            <div class="flex-name"> Chef's Salad</div>
             <!--Item Name Banner-->
 
             <img class="flex-img" src="mozzarella sticks.jpg">
@@ -575,15 +506,12 @@
                 <!--Main Container for item description and price-->
 
                 <div class="SubConL">
-                    Served With Sour Cream on the side
+                    served with dressing of your choice
                     <!--Item Description-->
                 </div>
                 <div class="SubConM"></div>
                 <div class="SubConR">
-                    <div>6</div>
-                    <div>Skins</div>
-                    <!--Item Quantity-->
-                    <div>$9.49</div>
+                    <div>$6.99</div>
                     <!--Item Price-->
                 </div>
             </div>
@@ -592,7 +520,7 @@
 
         <div class="flex-item">     <!--Appetizer Sampler-->
 
-            <div class="flex-name">Appetizer Sampler</div>
+            <div class="flex-name">Fish & Chips</div>
             <!--Item Name Banner-->
 
             <img class="flex-img" src="mozzarella sticks.jpg">
@@ -602,16 +530,12 @@
                 <!--Main Container for item description and price-->
 
                 <div class="SubConL">
-                    Chicken Tenders, Mozzarella Sticks, and Potato Skins, with Marinara, Sweet and Sour, and Sour Cream
+                    With French fries or onion rings & tartar sauce
                     <!--Item Description-->
                 </div>
                 <div class="SubConM"></div>
                 <div class="SubConR">
-                    <div>1</div>
-                    <div>Order</div>
-                    <!--Item Quantity-->
-                    <div>$9.99</div>
-                    <!--Item Price-->
+                    $9.99
                 </div>
             </div>
 
@@ -619,7 +543,7 @@
 
         <div class="flex-item">     <!--Celery and Carrot Sticks-->
 
-            <div class="flex-name">Celery and Carrot Sticks</div>
+            <div class="flex-name">Spaghetti / Ziti With Sauce</div>
             <!--Item Name Banner-->
 
             <img class="flex-img" src="mozzarella sticks.jpg">
@@ -629,16 +553,12 @@
                 <!--Main Container for item description and price-->
 
                 <div class="SubConL">
-                    Served With Ranch on the side
+                    Served With Garlic Bread
                     <!--Item Description-->
                 </div>
                 <div class="SubConM"></div>
                 <div class="SubConR">
-                    <div>1</div>
-                    <div>Order</div>
-                    <!--Item Quantity-->
-                    <div>$4.49</div>
-                    <!--Item Price-->
+                    $5.99
                 </div>
             </div>
 
@@ -646,7 +566,7 @@
 
         <div class="flex-item">     <!--Chips and Salsa-->
 
-            <div class="flex-name">Chips and Salsa</div>
+            <div class="flex-name">Spaghetti / Ziti with meatballs</div>
             <!--Item Name Banner-->
 
             <img class="flex-img" src="mozzarella sticks.jpg">
@@ -656,83 +576,15 @@
                 <!--Main Container for item description and price-->
 
                 <div class="SubConL">
-                    Served With Salsa on the side
+                    Served With garlic bread
                     <!--Item Description-->
                 </div>
                 <div class="SubConM"></div>
                 <div class="SubConR">
-                    <div>1</div>
-                    <div>Order</div>
-                    <!--Item Quantity-->
-                    <div>$4.49</div>
-                    <!--Item Price-->
+                    $7.99
                 </div>
             </div>
 
-        </div>
-
-        <div class="flex-item">     <!--Poutine-->
-
-            <div class="flex-name">Poutine</div>
-            <!--Item Name Banner-->
-
-            <img class="flex-img" src="mozzarella sticks.jpg">
-            <!--Item Picture-->
-
-            <div class="subcon1">
-                <!--Main Container for item description and price-->
-
-                <div class="SubConL">
-                    Served With Sour Cream on the side
-                    <!--Item Description-->
-                </div>
-                <div class="SubConM"></div>
-                <div class="SubConR">
-                    <div>1</div>
-                    <div>Order</div>
-                    <!--Item Quantity-->
-                    <div>$10.99</div>
-                    <!--Item Price-->
-                </div>
-            </div>
-
-        </div>
-
-        <div class="flex-item">     <!--Baked Meatballs-->
-
-            <div class="flex-name">Baked Meatballs</div>
-            <!--Item Name Banner-->
-
-            <img class="flex-img" src="mozzarella sticks.jpg">
-            <!--Item Picture-->
-
-            <div class="subcon1">
-                <!--Main Container for item description and price-->
-
-                <div class="SubConL">
-                    Served in Marinara sauce with Melted Cheese
-                    <!--Item Description-->
-                </div>
-                <div class="SubConM"></div>
-                <div class="SubConR">
-                    <div>1</div>
-                    <div>Order</div>
-                    <!--Item Quantity-->
-                    <div>$9.99</div>
-                    <!--Item Price-->
-                </div>
-            </div>
-
-        </div>
-
-        <div class="sauce-box">
-            <div class="sauce-title">Wing / Tender Sauces</div>
-            <div class="sauce-line"></div>
-            <div class="sauce-list">BBQ, Buffalo, Asian Sweet Chili, Sweet and Spicy, Jerk Spice, Garlic Parmesan, Mango Jabanero, Teryaki </div>
-            <div style="border-bottom:solid 1px;"></div>
-            <div class="sauce-title">Dipping Sauces</div>
-            <div class="sauce-line"></div>
-            <div class="sauce-list">Ranch, Blue Cheese, 1000 Island, Parmesan Peppercorn, Sweet and Sour, Honey Mustard, Salsa, Sour Cream, Tartar </div>
         </div>
     </div>
     </div>
