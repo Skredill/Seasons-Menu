@@ -1,0 +1,27 @@
+.infobox{
+    position:absolute;
+    left:0;
+    top:70px;
+    height:60px;
+    width:100%;
+    z-index:-1;
+    display:flex;
+    flex-direction:row;
+    border-block:solid 1px;
+    font-size:13px;
+    justify-content: space-between;
+    background-image: -moz-radial-gradient(#757575, #585858);
+
+}
+
+.infosubbox{
+
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    width:auto;
+    justify-content: center;
+    padding-inline:20px;
+    gap:5px;
+    color:white;
+}

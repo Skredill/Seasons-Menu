@@ -67,6 +67,11 @@
   text-align: center;
 }
 
+
+.navtitle:hover{
+  background-color:#b6b6b6;
+}
+
 /* Style The Dropdown Button */
 .dropbtn {
   font-family:"Rubik Mono One", monospace;
