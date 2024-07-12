@@ -1,0 +1,185 @@
+        /*-Global Variables-*/
+:root{
+    
+    --dark-green:#02773d;
+    --light-green:#00db1d;
+    --light-gray:#868686;
+    --light-gray2:#747474;
+    --dark-gray:#535353;
+    --white:#d3d3d3;
+    --black:#000000;
+    --red:#ff0000;
+    --yellow:#feff33;
+    --light-blue:#008dd3;
+    --dark-blue:#001fce;
+    --gray:#464646;
+    --maroon:#753131;
+}
+
+  html {
+    background-color: #fcfcfc !important;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.main-container {
+    margin-top:90px;
+    margin-inline:10px;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    gap:20px;
+    z-index:-1;
+}
+
+
+/*-Individual Item Boxes-*/
+
+
+.flex-img{
+    display:none;
+}
+
+.flex-name{
+    font-family:"Rubik Mono One", monospace !important;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align:left;
+    font-size:18px !important;
+    padding: 20px 0px 10px 5px;
+    color:gray;
+    border-top:dashed 2px;
+}
+
+
+/*--Item Description container*/
+.subcon1{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    Height:fit-content;
+    font-size:9px;
+}
+
+        /*-Item Price Box-*/
+.SubConR{
+    width:35%;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    justify-content: center;   
+    font-size:20px;
+    gap:5px;
+}
+
+
+        /*-Description Box Divider-*/
+.SubConM{
+
+    top:50%;
+    position:relative;
+    border-right:solid 1px black;
+    height:auto;
+    z-index: -1;
+}
+
+        /*-Description Box-*/
+.SubConL{
+    display:flex;
+    flex-direction:column;
+    width:55%;
+    text-align:left;
+    justify-content: center;
+    line-height:1.5;
+    padding-left:5px;
+    padding-right:5px;
+    font-size:20px;
+}
+
+
+
+                /*-Page Title-*/
+.banner{
+    font-family:"Rubik Mono One", monospace !important;
+    font-size:30px;
+    padding-block:10px;
+    text-align:center;
+    Height:auto;
+    width:90vw;
+    color:gray;
+}
+
+.sauce-box{
+    margin-top:10px;
+    margin-left:-20px;
+    display:flex;
+    flex-direction: column;
+    height:auto;
+    width:100vw;
+    font-size:20px;
+
+}
+        /*-sauces box list-*/
+.sauce-list{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align:center;
+    font-size:24px;
+    height:auto;
+    padding:10px;
+    margin-block:5px;
+}
+        /*-Sauces box title-*/
+.sauce-title{
+    font-family:"Rubik Mono One", monospace !important;
+    padding-block:10px;
+    text-align:center;
+    font-size:20px;
+    color:gray;
+}
+        /*-Sauces box divider-*/
+.sauce-line{
+    display:flex;
+    border-bottom:dashed 2px black;
+}
+
+
+
+
+
+.byocont{
+    display:flex;
+    justify-content:space-between;
+    height:auto;
+    padding:10px;
+}
+
+.byosize{
+    margin-left:10px;
+    padding-top:5px;
+    width:fit-content;
+    height:auto;
+}
+
+.byoprice{
+    justify-content: center;
+    text-align: center;
+    height:auto;
+    padding-block:5px;
+    margin-right:10px;
+}
+
+.topping-list{
+    padding:10px;
+    text-align: center;
+    font-size:20px;
+    height:auto;
+}
+
+

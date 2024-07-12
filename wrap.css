@@ -13,6 +13,7 @@
     --light-blue:#008dd3;
     --dark-blue:#001fce;
     --gray:#464646;
+    --maroon:#753131;
 }
 
   html {
@@ -37,7 +38,7 @@
 
         /*-Individual Item Boxes-*/
 .flex-item{
-    background-image:radial-gradient(var(--light-gray),#4e4ea5) !important;
+    background-image:radial-gradient(var(--light-gray),var(--maroon)) !important;
     font-size:20px;
     border:solid 1px black;
     border-radius:20px;
@@ -111,7 +112,7 @@
         /*-Page Title-*/
 .banner{
     font-family:"Rubik Mono One", monospace !important;
-    background-image:radial-gradient(var(--light-gray),#4e4ea5) !important;
+    background-image:radial-gradient(var(--light-gray),var(--maroon)) !important;
     font-size:25px;
     padding-block:10px;
     text-align:center;
@@ -126,7 +127,7 @@
 .sauce-box{
     font-family:"Rubik Mono One", monospace !important;
     color:white;
-    background-image:radial-gradient(var(--light-gray),#4e4ea5) !important;
+    background-image:radial-gradient(var(--light-gray),var(--maroon)) !important;
     display:flex;
     flex-direction: column;
     border:solid 1px black;
@@ -182,7 +183,7 @@
 .topping-list{
     padding:10px;
     text-align: center;
-    font-size:10px;
+    font-size:20px;
     height:auto;
 }
 
@@ -257,7 +258,7 @@
 .byodesk{
     font-family:"Rubik Mono One", monospace !important;
     color:white;
-    background-image:radial-gradient(var(--light-gray),#4e4ea5) !important;
+    background-image:radial-gradient(var(--light-gray),var(--maroon)) !important;
     display:flex;
     flex-direction:row;
     border:solid 1px black;

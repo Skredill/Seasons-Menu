@@ -1,27 +1,107 @@
+:root{
+    --dark-green:#02773d;
+    --light-green:#00db1d;
+    --light-gray:#868686;
+    --light-gray2:#747474;
+    --dark-gray:#535353;
+    --white:#d3d3d3;
+    --black:#000000;
+    --red:#ff0000;
+    --yellow:#feff33;
+    --light-blue:#008dd3;
+    --dark-blue:#001fce;
+    --gray:#464646;
+    --maroon:#753131;
+}
+
 .infobox{
+    left:calc(50vw - 195px);
     position:absolute;
-    left:0;
-    top:70px;
-    height:60px;
-    width:100%;
+    top:125px;
+    height:125px;
+    width:390px;
     z-index:-1;
     display:flex;
     flex-direction:row;
-    border-block:solid 1px;
+    border:solid 2px;
+    border-radius:20px;
     font-size:13px;
-    justify-content: space-between;
-    background-image: -moz-radial-gradient(#757575, #585858);
-
+    justify-content:space-between;
+    background-image:radial-gradient(var(--light-gray),var(--maroon));
+    padding-bottom:30px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .infosubbox{
-
+    margin-top:20px;
     display:flex;
-    flex-direction: column;
-    text-align: center;
+    flex-direction:column;
+    text-align:center;
     width:auto;
-    justify-content: center;
+    justify-content:center;
     padding-inline:20px;
     gap:5px;
     color:white;
+    height:50px;
+}
+
+.orderbox{
+    background-image:radial-gradient(var(--light-gray),var(--maroon));
+    color:white;
+    position:absolute;
+    display:block;
+    height:55px;
+    top:360px;
+    z-index:-1;
+    border:solid 2px black;
+    text-decoration:none;
+    width:360px;
+    left:calc(50vw - 180px);
+    text-align:center;
+    font-size:large;
+    padding-top:20px;
+    padding-bottom:10px;
+    border-radius:20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.number{
+    left:calc(50vw - 137px);
+    color:white;
+    display:block;
+    position:absolute;
+    height:40px;
+    width:275px;
+    top:210px;
+    font-size:x-large;
+    padding-top:10px;
+    z-index: -1;
+}
+
+
+
+.slider{
+    position:absolute;
+    display:block;
+    height:200px;
+    width:250px;
+    top:550px;
+    left:calc(50vw - 168px);
+    border:solid 2px;
+    padding:40px;
+    background-image:radial-gradient(var(--light-gray),var(--maroon));
+    border-radius:20px;
+    z-index: -1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+.sliderBorder{
+    top:590px;
+    left:calc(50vw - 126px);
+    position:fixed;
+    height:200px;
+    width:248px;
+    border:solid 2px;
+    z-index: -1;
 }

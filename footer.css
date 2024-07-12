@@ -1,6 +1,5 @@
 .footer-main{
     background-color:#a1a1a1;
-    border-top:solid 1px;
     position:relative;
     display:flex;
     flex-direction:row;
@@ -21,7 +20,11 @@
     font-size:18px;
     width:100%;
     padding-inline:10px;
+
+
 }
+
+
 
 
 
